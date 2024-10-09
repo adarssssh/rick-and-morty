@@ -1,0 +1,67 @@
+/* CharacterProfile.css */
+
+
+.charactername{
+  font-size: 2.5rem;
+  color: #f5c518; /* Rick and Morty theme color */
+  margin-bottom: 10px;
+}
+.characterprofile {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #2f2f2f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+  
+  
+  .characterprofile img {
+    border-radius: 50%;
+    border: 5px solid #f5c518; /* Rick and Morty theme color */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .characterdetails {
+    text-align: left;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .characterepisodes{
+    text-align: left;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .ultag {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ullitag {
+    margin: 5px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #555;
+    font-size: 1.1rem;
+  }
+
+  .h3tag {
+    color: #f5c518;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+
+
+  .ptag {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }

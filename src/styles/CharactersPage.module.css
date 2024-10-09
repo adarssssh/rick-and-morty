@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin: 0px; /* or grid, based on your layout needs */
+  flex-direction: column; /* Ensures child elements stack vertically */
+  align-items: center; /* Centers child elements horizontally */
+  padding: 0px; /* General padding around the container */
+  background-color: #414141;
+  }
+  
+  
+  

@@ -1,0 +1,34 @@
+/* CharacterCard.module.css */
+.card {
+    
+    background-color: #e8e7b2; /* Background color for the card */
+    border: 1px solid #ccc; /* Light border around the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up the card slightly on hover */
+  }
+  
+  img {
+    width: 30%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  h3 {
+    color: #555;
+    margin: 8px 0; /* Space around the character name */
+    font-size: 1.2em; /* Font size for the character name */
+  }
+  
+  p {
+    margin: 4px 0; /* Space around paragraph elements */
+    font-size: 0.9em; /* Font size for species and status */
+    color: #555; /* Text color for better readability */
+  }
+  

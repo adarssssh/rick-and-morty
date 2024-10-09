@@ -1,0 +1,55 @@
+.card {
+    background-color: #e8e7b2; /* Background color for the card */
+    border: 1px solid #ccc; /* Light border around the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding inside the card */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+
+.locationGrid {
+    display: grid; /* Use grid for card layout */
+    grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive rows */
+    gap: 16px; /* Space between cards */
+    margin: 20px; /* Margin around the grid */
+    border-radius: 8px; /* Rounded corners for the grid */
+}
+
+
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card slightly on hover */
+} /* Scale up the card slightly on hover */
+
+
+h3 {
+    color: #555; /* Title color */
+    margin: 8px 0; /* Space around the location name */
+    font-size: 1.2em; /* Font size for the location name */
+}
+
+p {
+    margin: 4px 0; /* Space around paragraph elements */
+    font-size: 0.9em; /* Font size for type and dimension */
+    color: #555; /* Text color for better readability */
+}
+
+.viewCharactersButton {
+    margin-top: 10px; /* Space above the button */
+    padding: 8px 16px; /* Padding for the button */
+    background-color: #4CAF50; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 0.9em; /* Font size for button text */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.viewCharactersButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

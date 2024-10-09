@@ -1,0 +1,39 @@
+.locationsContainer {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    padding: 20px; /* Padding around the container */
+    background-color: #414141; /* Background color for the container */
+}
+
+.searchInput {
+    width: 100%; /* Full width for the search input */
+    max-width: 400px; /* Maximum width */
+    padding: 10px; /* Padding inside the search input */
+    margin-bottom: 20px; /* Space below the input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 4px; /* Rounded corners for the input */
+    font-size: 1em; /* Font size */
+}
+
+.locationGrid {
+    display: grid; /* Use grid for card layout */
+    grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive rows */
+    gap: 16px; /* Space between cards */
+    margin: 20px; /* Margin around the grid */
+    border-radius: 8px; /* Rounded corners for the grid */
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    .locationGrid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .locationGrid {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}

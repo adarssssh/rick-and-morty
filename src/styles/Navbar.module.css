@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+/* src/components/Navbar.module.css */
+
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px 20px; /* Padding around the navbar */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between logo/title and links */
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  color: white; /* Color for the logo/text */
+  font-size: 1.5em; /* Larger font size for the logo */
+}
+
+.navLinks {
+  display: flex; /* Use flexbox for the links */
+  gap: 20px; /* Space between links */
+}
+
+.navLink {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px; /* Padding for links */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.navLink:hover {
+  background-color: #555; /* Darker background on hover */
+  border-radius: 4px; /* Rounded corners on hover */
+}
